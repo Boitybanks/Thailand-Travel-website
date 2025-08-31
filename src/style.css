@@ -33,6 +33,10 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
 
 .card {
   background: white;
@@ -60,9 +64,8 @@ body {
   background-color: #462cb3;
   text-decoration: none;
 }
-
 a.btn:hover {
-  background-color: #3db7df;
+  color: #3db7df;
 }
 
 section {
@@ -234,5 +237,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
