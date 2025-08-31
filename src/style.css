@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #462cb3;
 }
 
 .container {
@@ -59,6 +59,10 @@ body {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+
+a.btn:hover {
+  background-color: #3db7df;
 }
 
 section {
@@ -169,10 +173,10 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(57, 54, 144, 0.9),
+      rgba(46, 29, 115, 0.9)
     ),
-    url("../images/lisbon-footer.png");
+    url("../images/pool.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
